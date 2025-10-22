@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "stocks-broker-app",
+    "name": "Stockso",
     "slug": "stocks-broker-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.adiar24.stocksbrokerapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a6be7e54-2125-469a-9486-841efb93972f"
+      }
     }
   }
 }
